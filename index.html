@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Muka FL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
+</head>
+<body>
+    <main class="min-h-screen flex flex-col justify-center bg-slate-200">
+        <section class="h-screen flex flex-col justify-center items-center">
+            <h1 class="font-bold text-4xl mb-20 transform -translate-y-2">PICK YOUR MUKA FL</h1>
+            <form class="mx-auto flex flex-col justify-center items-center w-full h-80">
+                <div id="charimg" class="mx-auto w-full transform translate-y-1 h-full bg-no-repeat bg-contain bg-center"></div>
+                <div class="rounded-[50%] bg-slate-700 w-28 h-10 opacity-50"></div>
+                <div class="flex flex-row justify-between mt-20 w-72">
+                    <div id="left" class="hover:border-violet-500 active:border-indigo-700 border-r-8 border-b-8 border-indigo-500 p-3 inline-block rotate-[135deg]"></div>
+                    <div id="display" class="mx-auto font-bold">Tibetan Sand Fox</div>
+                    <div id="right" class="hover:border-violet-500 active:border-indigo-700 border-r-8 border-b-8 border-indigo-500 p-3 inline-block -rotate-45"></div>
+                </div>
+                <button id="start" class="hover:bg-emerald-500 active:bg-green-700 rounded-lg bg-green-500 font-bold mt-10 px-10 py-2 text-slate-200 text-xl" type="button">Next</button>
+              </form>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>

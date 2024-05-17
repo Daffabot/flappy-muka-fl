@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Tibetan Sand Fox",
+    "Image": "./img/aliandra.png",
+    "ImageHD": "./img/aliandra-hd.png"
+  },
+  {
+    "Name": "Ahmad Marcel Albert",
+    "Image": "./img/ahmadmarcelalbert.png",
+    "ImageHD": "./img/ahmadmarcelalbert-hd.png"
+  },
+  {
+    "Name": "Arthur Kirkland KF",
+    "Image": "./img/arthurkirkland.png",
+    "ImageHD": "./img/arthurkirklandkf-hd.png"
+  },
+  {
+    "Name": "Azzam Afton",
+    "Image": "./img/azzamafton.png",
+    "ImageHD": "./img/azzamafton-hd.png"
+  },
+  {
+    "Name": "Bobby",
+    "Image": "./img/bobby.png",
+    "ImageHD": "./img/bobby-hd.png"
+  },
+  {
+    "Name": "Handra The Jelek",
+    "Image": "./img/handrathej.png",
+    "ImageHD": "./img/handrathej-hd.png"
+  },
+  {
+    "Name": "Helghy Anaknya Handra",
+    "Image": "./img/helghy.png",
+    "ImageHD": "./img/helghy-hd.png"
+  },
+  {
+    "Name": "Kopral Raden",
+    "Image": "./img/kopralraden.png",
+    "ImageHD": "./img/kopralraden-hd.png"
+  },
+  {
+    "Name": "Kristen Joselin",
+    "Image": "./img/kristenjoselin.png",
+    "ImageHD": "./img/kristenjoselin-hd.png"
+  },
+  {
+    "Name": "Ludwig Franz Stigler",
+    "Image": "./img/ludwigfranzstigler.png",
+    "ImageHD": "./img/ludwigfranzstigler-hd.png"
+  },
+  {
+    "Name": "Otto Carius",
+    "Image": "./img/ottocarius.png",
+    "ImageHD": "./img/ottocarius-hd.png"
+  },
+  {
+    "Name": "P Azured",
+    "Image": "./img/pazured.png",
+    "ImageHD": "./img/pazured-hd.png"
+  },
+  {
+    "Name": "Sanak Subur",
+    "Image": "./img/sanaksubur.png",
+    "ImageHD": "./img/sanaksubur-hd.png"
+  },
+  {
+    "Name": "Surya",
+    "Image": "./img/surya.png",
+    "ImageHD": "./img/surya-hd.png"
+  },
+  {
+    "Name": "Tom Alexander",
+    "Image": "./img/tomalexander.png",
+    "ImageHD": "./img/tomalexander-hd.png"
+  }
+]

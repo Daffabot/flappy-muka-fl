@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Muka FL</title>
+    <link rel="stylesheet" href="./css/game.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.2/velocity.ui.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-200" touch-action="none">
+    <main class="min-h-screen flex flex-col justify-center">
+        <button type="button" id="back" class="z-[1] hover:bg-emerald-500 active:bg-green-600 bg-green-400 rounded-full w-20 h-20 font-bold p-4 text-center text-4xl mt-10 ml-10">&#128281;</button>
+        <section class="h-screen flex flex-col justify-center items-center">
+            <div id="con" class="w-4/5 md:w-1/2 lg:w-3/5 xl:w-1/3 h-[20.8rem] border-blue-500 z-0 bg-slate-600 border-8 absolute top-20 flex flex-col justify-center items-center">
+                <div id="myfilter" class="bg-slate-500 w-full h-full absolute opacity-70 hidden"></div>
+                <div id="myrestartbutton" class="absolute hidden">
+                  <button class="bg-red-300 p-4 font-bold rounded-lg" onclick="restartGame()">Restart</button>
+                </div>
+                <div id="canvascontainer">
+                  <canvas class="w-full h-80 border-slate-500 border-4"></canvas>
+                </div>
+            </div>
+            <div class="meja absolute flex flex-col justify-center items-center top-[450px]">
+                <button id="play" class="z-[1] play bg-blue-600 w-20 text-center p-4 font-bold rounded-lg" type="button">Play</button>
+                <div id="control" class="w-56 absolute h-56 flex flex-col justify-center items-center mt-52" touch-action="none">
+                    <div class="joystick-base absolute" touch-action="none">
+                        <div class="joystick-shaft" touch-action="none"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="score" class="absolute top-[650px] flex flex-col justify-items-start items-start"></div>
+        </section>
+        <audio id="loadingit()" src="./sound/loading.mp3" preload="auto"></audio>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
