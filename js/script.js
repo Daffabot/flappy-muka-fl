@@ -441,6 +441,39 @@ joystick.ondrag = function () {
   }
 }
 
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'w' || event.key === 'W') {
+    console.log("atas");
+    moveup()
+  } else if (event.key === 'a' || event.key === 'A') {
+    console.log("kiri");
+    moveleft()
+  } else if (event.key === 's' || event.key === 'S') {
+    console.log("bawah");
+    movedown()
+  } else if (event.key === 'd' || event.key === 'D') {
+    console.log("kanan");
+    moveright()
+  } else if (event.key === 'ArrowUp') {
+    console.log("atas");
+    moveup()
+  } else if (event.key === 'ArrowRight') {
+    console.log("kanan");
+    moveright()
+  } else if (event.key === 'ArrowDown') {
+    console.log('bawah');
+    movedown()
+  } else if (event.key === 'ArrowLeft') {
+    console.log('kiri');
+    moveleft()
+  }
+});
+
+document.addEventListener('keyup', function(event) {
+  console.log("lepas");
+  clearmove()
+});
+
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
